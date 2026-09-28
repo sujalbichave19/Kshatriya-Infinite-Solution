@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>application form</title>
+        <script src="script.js"></script>
+        <style>
+            h3{
+                color: white;
+            }
+            label{
+                background-color: rgb(177, 143, 143);
+                color: black;
+                text-align: start;
+                border-radius: 5px;
+                padding: 3px;
+                font-weight: bold;
+                border: solid white 2px;
+                font-family: Arial;
+
+                
+            }
+            input{
+                background-color: rgb(177, 143, 143);
+                color: black;
+                border-radius: 5px;
+                padding: 1px;
+                border: solid white 2px;
+                
+            }
+            ::placeholder{
+                color: black;
+                
+            }
+            
+            button{
+                background-color: rgb(5, 5, 85);
+                color: white;
+                font-weight: bold;
+                border-radius: 10px;
+                text-align: center;
+                width: 300px;
+                display: block;
+                margin: auto;
+
+            }
+            button:hover{
+                background-color: black;
+            }
+            form{
+                width: 500px;
+                height: 500px;
+                background-color: rgb(54, 24, 24);
+                padding: 10px;
+                border-radius: 10px;
+                border: solid black 5px;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                top: 20px;
+                left: 480px;
+            }
+
+            select{
+                background-color: rgb(177, 143, 143);
+                border-radius: 3px;
+                padding: 3px;
+
+            }
+            .address {
+                display: flex;
+                align-items: flex-start;
+                gap: 5px;}
+                
+            .address label{
+                margin: 0;
+            }   
+            .address textarea{
+                margin-top: 0;
+            }   
+            textarea{
+                width: 500px;
+                height: 50px;
+            }
+            
+        </style>
+       
+
+    </head>
+    <body style="background-color:rgb(76, 110, 140);">
+        <form action="" id="myform">
+            <h3>1.Personal Information.</h3>
+            <label for="name">Name:</label>
+            <input type="text" name="name" value="" placeholder="Enter your name here"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male">Male 
+            <input type="radio" name="gender" value="female">Female 
+            <input type="radio" name="gender" value="other">Other <br><br> 
+
+            <div class="address">
+                <label>Address:</label>
+                <textarea placeholder="Write your full address here"></textarea><br><br><br><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+            <input type="email" name="email" value="" placeholder="Enter your Email here"><br><br>
+
+            </div>
+            <div>
+                <label for="mobile">Mobile:</label>
+            <input type="text" name="Mobile" value="" placeholder="Enter your mobile no here"><br><br>
+            </div>
+
+            <div>
+                <label for="dob">DOB:</label>
+            <input type="date" name="DOB"><br><br>
+            </div>
+
+            <div>
+                <label for="position">Position:</label>
+            <select name="position" id="position">
+                <option value="software developer">Select</option>
+                <option value="software developer">Web developer</option>
+                <option value="software developer">Software developer</option>
+                <option value="software developer">App developer</option>
+                <option value="software developer">Full Stack developer</option>
+            </select><br><br>
+            </div>
+
+            <div>
+                <label for="skill">Skill:</label>
+            <input type="checkbox" name="skill" id="Python">Python 
+            <input type="checkbox" name="skill" id="Java">Java
+            <input type="checkbox" name="skill" id="C/C++">C/C++
+            <input type="checkbox" name="skill" id="HTML">HTML
+            <input type="checkbox" name="skill" id="CSS">CSS
+            <input type="checkbox" name="skill" id="JavaScript">JavaScript <br><br> 
+            </div>
+            
+            <div>
+                
+            </div>
+
+            <div>
+                <button type="submit" onclick="alert" >submits</button><br><br>
+            </div>
+            
+
+
+
+            
+        </form>
+    </body>
+</html>

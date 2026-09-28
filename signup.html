@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>application form</title>
+        <script src="script.js"></script>
+        <style>
+            h3{
+                background-color: gray;
+                border: solid black 2px;
+                border-radius: 5px;
+                color: black;
+                text-align: center;
+                
+            }
+            
+            form{
+                align-items: center;
+                width: 500px;
+                height: 700px;
+                background-color: white;
+                padding: 10px;
+                border-radius: 10px;
+                border: solid black 5px;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                top: 20px;
+                left: 480px;
+                height: 100%;
+            }
+
+            .declaration{
+                margin-top: 0;
+                text-align: start;
+                background-color: white;
+                border: solid black 2px;
+                text-align: left;
+                margin: 0px;
+                padding: 5px;
+                border-radius: 5px;
+                scroll-behavior: smooth;
+                width: 450px;
+                height: 150px;
+                text-overflow:clip;
+                overflow-y: scroll;
+
+            }
+        </style>
+       
+
+    </head>
+    <body style="background-color:rgb(76, 110, 140);">
+        <form action="" id="loginpage">
+            <h3>Welcome back</h3>
+         
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Full Name"><br><br>
+
+            <label for="Username">Ussername:</label>
+            <input type="text" placeholder="Username"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password"><br><br>
+
+            <input type="checkbox" name="checkbox" id="">Remember me. <br><br>
+            
+            <div class="declaration"><h6>Professional Conduct & Platform Use</h6>
+            <p>Business use only: Do not use the platform for personal, non-professional, or social purposes.
+            No malicious software: Do not upload viruses, malware, or code designed to disrupt our infrastructure.
+            No reverse engineering: Do not attempt to copy, decompile, or steal our proprietary software source code.
+            No vulnerability testing: Do not perform unauthorized security scans or penetration tests on our system.</p>
+            </div>
+            <input type="checkbox" >Agree?<br><br>
+            
+            <button>Create Account</button><br><br>
+
+            <h6>Already have an account? <a href="login.html">Login</a></h6>
+
+            
+            
+        </form>
+    </body>
+</html>
