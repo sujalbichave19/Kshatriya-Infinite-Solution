@@ -1,1 +1,0 @@
-# Kshatriya-Infinite-Solution
