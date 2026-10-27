@@ -1,0 +1,450 @@
+        .brand{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2px 40px;
+            font-family: Arial, sans-serif;
+            
+        }
+
+        .brand-text h1 {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        letter-spacing: 1px;
+        }
+
+        .brand-text p {
+        color: gray;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin: 2px 0 0;
+        }
+        .logo{
+            margin: 0px;
+            padding-left: 4px;
+            padding-right: 4px;
+            
+        }
+        nav{
+            background-color: rgb(18, 18, 32) ;
+            color: white;
+            width:100vw;
+            height:40px;
+            margin: 0px;
+            padding: 10px;
+            text-decoration: none;
+            align-items: center;
+            /* justify-content: space-between; */
+            display: flex;
+            overflow: hidden;
+            position: fixed;
+            
+        }
+
+        body{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .header{
+
+            background-color: white;
+            height: 50px;
+            font-weight: bold;
+            font-family: Helvetica;
+            padding: 0px;
+            margin:0 ;
+            /* margin-top: 0;
+            margin-left: 0; */
+            text-align: center;
+            overflow: hidden;
+        
+        }
+        main{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            margin-left: 0px;
+            background-image:url(bg.jpeg) ;
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100;
+        }
+        h2,p{
+            text-align: center;
+            
+        }
+        
+
+        .maintab{
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: large;
+
+        }
+        
+        .maintab:hover{
+            text-decoration: underline;
+            text-decoration-color: white;
+            
+        }
+        .search{
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border-radius: 20px;
+            margin: 0px;
+            margin-left: 100px;
+            padding: 10px;
+            text-decoration: none;
+            border: 5px soldi gray;
+            width: 630px;
+        }
+        
+        .login{
+            background-color: rgb(18, 18, 32);
+            color:white;
+            border: solid white 2px;
+            padding: 5px;
+            border-radius: 20px;
+            margin-right: 5px;
+            margin-left: 30px;
+            text-decoration: none;
+        }
+        .login:hover{
+            padding: 8px;
+            margin-right: 4px;
+        }
+        .signup{
+            background-color: blue;
+            color: white;
+            border: solid blue 2px;
+            padding: 5px;
+            border-radius: 20px;
+            margin-right: 5 px;
+            text-decoration: none;
+        }
+        .signup:hover{
+            padding: 8px;
+        }
+        .footer{
+            background-color: rgb(18, 18, 32);
+            color: white;
+            margin: 0;
+            padding: 0px;
+            text-align: center;
+            width: 100vw;
+            height: 30px;
+            font-size:small;
+            /* position:fixed; */
+            
+        }
+        .copywrite{
+            color: rgb(179, 165, 165);
+            margin:0;
+            padding: 0px;
+            
+        }
+        
+        .container1{
+            
+            margin: 5px;
+            padding: 5px;
+            width: 560px;
+            height:230px;
+            margin-top: -8px;
+            padding-top: 0;
+            margin-left: 30px;
+
+        }
+        /* .line{
+            width: 30px;
+            height: 1px;
+            margin-top: 70px;
+            margin-left: 0;
+            color: rgb(21, 91, 197);
+            background-color: rgb(21, 91, 197);
+            border: 1px solid rgb(21, 91, 197);
+        } */
+        .intro{
+            color: white;
+            margin-left: -200px;
+            margin-top: -17px;
+        }
+        .first{
+            color: white;
+            font-size: 80px;
+            margin-top: 50px;
+        }
+        .second{
+            color: rgb(0, 0, 243);
+            font-size: 80px;
+            margin-top: -70px;
+        }
+        .detail{
+            color: rgb(205, 204, 204);
+            text-align: left;
+            margin-top: -px;
+            margin-left: 30px;
+            word-spacing: 5px;
+            font-size: 18px;
+            
+        }
+        .something{
+            height: 500px;
+        }
+        .aboutus{
+            margin: 5px;
+            padding: 5px;
+            width: 100vw;
+            height:80px;
+            margin-top: 0;
+            padding-top: 0;
+            margin-left: 30px;   
+        }
+        .work{
+            width: 100vw;
+            height: 500px;
+            display: flex;
+            gap: 20px;
+        }
+        .work1{
+            background-color: transparent ;   
+            color: white;         
+            border: 2px solid rgb(175, 175, 175);
+            width: 342px;
+            height: 200px;
+            border-radius: 7px;
+            margin-left: 40px;
+    
+        }
+        .work2{
+            background-color: transparent;
+            color: white;
+            border: 2px solid rgb(175, 175, 175);
+            width: 342px;
+            height: 200px;
+            border-radius: 7px;
+            
+        }
+        .work3{
+            background-color: transparent;
+            color: white;
+            border: 2px solid rgb(175, 175, 175);
+            width: 342px;
+            height: 200px;
+            border-radius: 7px;
+            
+        }
+        .work4{
+            background-color: transparent;
+            color: white;
+            border: 2px solid rgb(175, 175, 175);
+            width: 342px;
+            height: 200px;
+            border-radius: 7px;
+            
+        }
+        .about{
+            color: white;
+            text-align: left;
+            width: 100vw;
+            font-size: 70px;
+        }
+        .aboutdown{
+            color: rgb(205, 204, 204);
+            text-align: left;
+            margin-top: -50px;
+            font-size: 20px;
+            word-spacing: 2px;
+        }
+
+        .aboutcontainer{
+            background-color: white;
+            width: 100vw;
+            height: 405px;
+            margin-top: 50px;
+        }
+        .img{
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .aboutdetail{
+            width: 600px;
+            margin-left: 500px;
+            margin-top: -300px;
+        }
+        .review{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-left: 30px;
+            width: 1460px;
+            height: 89px;
+            background-color: lightblue;
+
+        }
+        .one{
+            
+            color: blue;
+            text-align: center;
+            width: 365px;
+            height: 89px;
+        }
+        .contactus{
+            margin-left: 30px;
+            text-align: left;
+            width: 100vw;
+        }
+        
+        .contact1{
+            color: white;
+            font-size: 70px;
+
+        
+        }
+        .contacttext{
+            text-align: left;
+            color: rgb(205, 204, 204);
+            margin-top: -50px;
+            font-size: 20px;
+            word-spacing: 2px;
+        }
+        .contactmain{
+            background-color: white;
+            width: 100vw;
+            height: 400px;
+            display: flex;
+
+        }
+        .contactleft{
+            border: 2px solid rgb(185, 184, 184);
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 40%;
+            height: 350px;
+            display: flex;
+
+        }
+        .emoji{
+            width: 80px;
+            margin-left: 100px;
+            height: 400px;
+            margin-top: 40px;
+        }
+        .emojiright{
+            margin-top: -20px;
+            width: 300px;
+            height: 400px;
+            text-align: left;
+            margin-left: 10px;
+            font-size: small;
+            
+        }
+        .contactright{
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 2px solid rgb(185, 184, 184);
+            border-radius: 5px;
+            width: 800px;
+            height: 350px;
+
+
+            
+
+        }
+        .name{
+            border: 1px solid rgb(185, 184, 184);
+            color: black;
+            margin-left: 20px;
+            width: 362px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 3px;
+            
+        }
+        .email{
+            border: 1px solid rgb(185, 184, 184);
+            color: black;
+            margin-left: 20px;
+            width: 362px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 3px;
+            
+        }
+        .subject{
+            border: 1px solid rgb(185, 184, 184);
+            margin-left: 20px;
+            width: 760px;
+            height: 30px;
+            font-weight: bold;
+            border-radius: 3px;
+
+        }
+        .message{
+            margin-left: 20px;
+            width: 755px;
+            font-weight: bold;
+            height: 60px;
+
+        }
+        .submit{
+            margin-left: 20px;
+            align-items: center;
+            text-align: center;
+            width: 760px;
+            height: 30px;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+
+        }
+
+        .lastcontainer{
+            display: flex;
+            width: 101vw;
+            margin-left: -15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .box1{
+            width: 377px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: gray;
+        }
+        .box2{
+            width: 377px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: gray;
+        }
+        .box3{
+            width: 377px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: gray;
+        }
+        .box4{
+            width: 377px;
+            height: 100px;
+            border: 2px solid black;
+            background-color: gray;
+        }
